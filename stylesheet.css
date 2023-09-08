@@ -37,8 +37,9 @@ header {
 
 
 .mainvisual{
-    height:700px;
+    height:740px;
     width:100%;
+    object-fit:cover;
 
 }
 
@@ -58,7 +59,7 @@ a {
 
 
 .big{
-    padding:40px;
+    padding:20px 80px 80px 80px;
     margin-top:100px;
 }
 
@@ -100,6 +101,7 @@ line-height: 30px;
 .aboutvisual {
     height:400px;
     width:55%;
+    object-fit: cover;
     margin-bottom: 100px;
 }
 
@@ -109,25 +111,25 @@ line-height: 30px;
 
 
 .business img {
-    height:300px;
-    width:400px;
+    /* height:300px; */
+    width:90%;
 
 }
 
 .left {
     flex-direction:column;
-    width:50%;
+    width:41%;
     margin-top:60px;
 }
 
 .right {
     flex-direction:column;
-    width:50%;
+    width:41%;
 }
 
 .business {
     display:flex;
-    margin: 0 10%;
+    justify-content: center;
 }
 
 .white {
@@ -149,17 +151,46 @@ line-height: 30px;
 
 .companyimg {
     height:400px;
-    width: 60%;
+    width: 48%;
     object-fit: cover;
     position: absolute;
     right: 0px;
-    top: 80px;
+    top: 90px;
 
 }
 
 .company {
     display:flex;
     position:relative;
-    width:800px;
-  
+    width:1000px;
+    margin:auto;
+}
+
+.nopadding {
+    padding:0;
+}
+
+footer {
+    margin-top:135px;
+    background-color: white;
+    padding:50px 80px;
+}
+
+.foot{
+    display:flex;
+    justify-content:space-between;
+    
+}
+
+.foot img {
+    width:100px;
+}
+
+.foot span {
+font-size:14px;
+line-height:normal;
+}
+
+ul {
+    font-size:8px;
 }
