@@ -197,11 +197,119 @@ ul {
 
 @media  screen and (max-width:680px) {
 
+header {
+    height:50px;
+}
+
+header img {
+    height:13px;
+    margin:10px 10px 0px 10px;
+    justify-content: left;
+}
+
+.black {
+    display:none;
+}
+
+.menu {
+    font-size:6px;
+    padding:0;
+}
+
+.menu a {
+    /* padding:5px; */
+    margin:5px 15px;
+}
+
 .wed {
-    flex-direction: column;
+    display:flex;
+    flex-direction:column;
+}
+
+.title {
+    font-size:35px;
+    letter-spacing: 0.4rem;
 }
 
 
+.big {
+    padding:20px 0px 30px 10px;
+    margin-top:25px;
+}
 
+span {
+    font-size:15px;
+    line-height:40px;
+}
+
+
+.ribon {
+    font-size:15px;
+    padding:0 3px;
+}
+
+.news {
+    flex-direction:column;
+}
+
+.article {
+    width:100%;
+}
+
+.about {
+    flex-direction:column;
+}
+
+.aboutvisual {
+    width:100%;
+    margin-bottom: 0px;
+}
+
+.business {
+    flex-direction:column;
+}
+
+.left , .right {
+    width:100%;
+    margin:0px;
+}
+
+
+.white {
+    width:100%;
+    padding:40px 20px;
+}
+
+li {
+    font-size:15px;
+}
+
+.company {
+    flex-direction: column;
+    width:100%;
+    position: static;
+}
+
+.companyimg {
+    width:100%;
+    position: static;
+}
+
+footer {
+    margin-top:0px;
+    padding:15px;
+}
+
+.foot {
+    flex-direction: column;
+}
+
+.foot span {
+    margin:15px 0px;
+}
+
+.foot img {
+    height:22px;
+}
 
 }
