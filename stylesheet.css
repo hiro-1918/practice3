@@ -194,3 +194,14 @@ line-height:normal;
 ul {
     font-size:8px;
 }
+
+@media  screen and (max-width:680px) {
+
+.wed {
+    flex-direction: column;
+}
+
+
+
+
+}
