@@ -230,6 +230,9 @@ header img {
     justify-content: left;
 }
 
+.mainvisual {
+    height: 300px;
+}
 
 .title {
     font-size:35px;
